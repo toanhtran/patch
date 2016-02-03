@@ -1,0 +1,101 @@
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Prata', serif;
+    margin-top: 0;
+}
+
+form {
+    font-family: 'Prata', serif;
+    width: 500px;
+    height: 480px;
+    background-color: crimson;
+    color: whitesmoke;
+    margin: 4em auto;
+    padding: 3em 2em 2em 2em;
+    background: biege;
+    border-style: dotted;
+    border-radius: 4px 4px dashed crimson;
+    box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 1px 0px, rgba(0, 0, 0, 0.09804) 0px 1px 2px 0px;
+}
+
+.header {
+    font-family: 'Great Vibes', cursive;
+    font-size: 55px;
+    text-align: center;
+    color: whitesmoke
+}
+
+p {
+    text-align: center;
+    font-family: 'Prata', serif;
+}
+
+
+/* btn */
+
+.mui-btn--raised {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.mui-textfield form-field {
+    color: bisque;
+    margin: 40px auto 20px;
+    font-size: 18px;
+}
+
+
+/* label color */
+
+.mui-textfield label {
+    color: whitesmoke;
+}
+
+
+/* label focus color */
+
+.mui-textfield input[type=text]:focus + label {
+    color: bisque;
+}
+
+
+/* label underline focus color */
+
+.mui-textfield input[type=text]:focus {
+    border-bottom: 1px solid whitesmoke;
+    box-shadow: 0 1px 0 0 whitesmoke;
+}
+
+
+/* valid color */
+
+.mui-textfield input[type=text].valid {
+    border-bottom: 1px solid whitesmoke;
+    box-shadow: 0 1px 0 0 whitesmoke;
+}
+
+
+/* invalid color */
+
+.mui-textfield input[type=text].invalid {
+    border-bottom: 1px solid whitesmoke;
+    box-shadow: 0 1px 0 0 whitesmoke;
+}
+
+
+/* icon prefix focus color */
+
+.mui-textfield .prefix.active {
+    color: whitesmoke;
+}
+
+.fa {
+    color: red;
+}
